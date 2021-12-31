@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklowlevel_design=self.webpackChunklowlevel_design||[]).push([[438],{6972:function(l){l.exports=JSON.parse('{"allTagsPath":"/lowlevel-design/blog/tags","slug":"/lowlevel-design/blog/tags/hola","name":"hola","count":1,"permalink":"/lowlevel-design/blog/tags/hola"}')}}]);

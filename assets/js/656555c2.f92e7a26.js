@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklowlevel_design=self.webpackChunklowlevel_design||[]).push([[883],{5342:function(e){e.exports=JSON.parse('{"allTagsPath":"/lowlevel-design/blog/tags","slug":"/lowlevel-design/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/lowlevel-design/blog/tags/docusaurus"}')}}]);

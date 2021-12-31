@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklowlevel_design=self.webpackChunklowlevel_design||[]).push([[914],{137:function(e){e.exports=JSON.parse('{"allTagsPath":"/lowlevel-design/blog/tags","slug":"/lowlevel-design/blog/tags/facebook","name":"facebook","count":1,"permalink":"/lowlevel-design/blog/tags/facebook"}')}}]);
