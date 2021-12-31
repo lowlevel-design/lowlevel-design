@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'LowLevel.Design',
   tagline: 'Prepare for Low Level Design Interviews',
-  url: 'https://lowlevel-design.github.io',
-  baseUrl: '/lowlevel-design/',
+  url: 'https://http://lowlevel.design',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
