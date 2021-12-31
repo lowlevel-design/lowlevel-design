@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'lowlevel-design', // Usually your GitHub org/user name.
-  projectName: 'lowlevel.design', // Usually your repo name.
+  projectName: 'lowlevel-design', // Usually your repo name.
 
   presets: [
     [
