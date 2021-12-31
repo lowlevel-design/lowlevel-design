@@ -8,13 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'LowLevel.Design',
   tagline: 'Prepare for Low Level Design Interviews',
-  url: 'https://lowlevel.design',
-  baseUrl: '/',
+  url: 'https://lowlevel-design.github.io',
+  baseUrl: '/lowlevel-design/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'lowlevel-design', // Usually your GitHub org/user name.
   projectName: 'lowlevel-design', // Usually your repo name.
+  trailingSlash: true,
 
   presets: [
     [
