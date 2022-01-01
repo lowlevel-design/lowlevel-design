@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklowlevel_design=self.webpackChunklowlevel_design||[]).push([[2535],{45641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"01","permalink":"/blog/01"}]}')}}]);
