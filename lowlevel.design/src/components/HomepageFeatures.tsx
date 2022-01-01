@@ -13,32 +13,30 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Design Principles',
     image: <UndrawDocusorousMountain width={'10%'} height={'10%'}/>,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Learn Design Principles that are at the heart of any good software. Learn principles like DRY, YAGNI, SOLID.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Design Patterns',
     image: <UndrawDocusorousReact width={'10%'} height={'10%'}/>,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        These are tried and tested solutions to common software design problems. Learn them to understand some common patterns that
+        are followed in great software.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Case Studies',
     image: <UndrawDocusorousTree width={'10%'} height={'10%'}/>,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Learn good software design from implementation of real world systems like Swiggy, Zomato, BookMyShow etc.
       </>
     ),
   },

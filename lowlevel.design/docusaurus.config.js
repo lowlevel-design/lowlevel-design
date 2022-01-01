@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'LowLevel.Design',
-  tagline: 'Prepare for Low Level Design Interviews',
+  tagline: 'Learn skills required to become a great engineer and prepare for Low Level Design and Machine Coding Interviews',
   url: 'https://lowlevel.design',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -107,51 +107,51 @@ const config = {
           // {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
-      footer: {
-        style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/facebook/docusaurus',
-        //       },
-        //     ],
-        //   },
-        // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Naman Bhalla`,
-      },
+      // footer: {
+      //   style: 'dark',
+      //   // links: [
+      //   //   {
+      //   //     title: 'Docs',
+      //   //     items: [
+      //   //       {
+      //   //         label: 'Tutorial',
+      //   //         to: '/docs/intro',
+      //   //       },
+      //   //     ],
+      //   //   },
+      //   //   {
+      //   //     title: 'Community',
+      //   //     items: [
+      //   //       {
+      //   //         label: 'Stack Overflow',
+      //   //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      //   //       },
+      //   //       {
+      //   //         label: 'Discord',
+      //   //         href: 'https://discordapp.com/invite/docusaurus',
+      //   //       },
+      //   //       {
+      //   //         label: 'Twitter',
+      //   //         href: 'https://twitter.com/docusaurus',
+      //   //       },
+      //   //     ],
+      //   //   },
+      //   //   {
+      //   //     title: 'More',
+      //   //     items: [
+      //   //       {
+      //   //         label: 'Blog',
+      //   //         to: '/blog',
+      //   //       },
+      //   //       {
+      //   //         label: 'GitHub',
+      //   //         href: 'https://github.com/facebook/docusaurus',
+      //   //       },
+      //   //     ],
+      //   //   },
+      //   // ],
+      //   copyright: `Copyright © ${new Date().getFullYear()} Naman Bhalla`,
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
