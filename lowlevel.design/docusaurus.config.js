@@ -60,6 +60,15 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
       }, 
     ],
+    [
+      require.resolve('@docusaurus/plugin-content-docs'),
+      {
+        id: 'design-principles',
+        path: 'design-principles',
+        routeBasePath: 'design-principles',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -76,6 +85,12 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
+          },
+          {
+            to: '/design-principles/what-are-design-principles',
+            activeBaseRegex: `/design-principles/`,
+            position: 'left',
+            label: 'Design Principles',
           },
           {
             to: '/design-patterns/what-are-design-patterns',
