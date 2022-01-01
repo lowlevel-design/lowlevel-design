@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'LowLevel.Design',
   tagline: 'Prepare for Low Level Design Interviews',
-  url: 'https://http://lowlevel.design',
+  url: 'https://lowlevel.design',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -51,6 +51,15 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
       }, 
     ],
+    [
+      require.resolve('@docusaurus/plugin-content-docs'),
+      {
+        id: 'design-patterns',
+        path: 'design-patterns',
+        routeBasePath: 'design-patterns',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }, 
+    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -67,6 +76,12 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
+          },
+          {
+            to: '/design-patterns/what-are-design-patterns',
+            activeBaseRegex: `/design-patterns/`,
+            position: 'left',
+            label: 'Design Patterns',
           },
           {
             to: '/docs-examples/intro',
