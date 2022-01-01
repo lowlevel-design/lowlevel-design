@@ -29,12 +29,12 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/lowlevel-design/lowlevel.design',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/lowlevel-design/lowlevel.design',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -45,9 +45,9 @@ const config = {
     [
       require.resolve('@docusaurus/plugin-content-docs'),
       {
-        id: 'docs-examples',
-        path: 'docs-examples',
-        routeBasePath: 'docs-examples',
+        id: 'case-studies',
+        path: 'case-studies',
+        routeBasePath: 'case-studies',
         sidebarPath: require.resolve('./sidebars.js'),
       }, 
     ],
@@ -84,12 +84,12 @@ const config = {
             label: 'Design Patterns',
           },
           {
-            to: '/docs-examples/intro',
-            activeBaseRegex: `/docs-examples/`,
+            to: '/case-studies/intro',
+            activeBaseRegex: `/case-studies/`,
             position: 'left',
-            label: 'Examples',
+            label: 'Case Studies',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
       footer: {
