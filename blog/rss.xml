@@ -2,14 +2,14 @@
 <rss version="2.0">
     <channel>
         <title>LowLevel.Design Blog</title>
-        <link>https://http://lowlevel.design/blog</link>
+        <link>https://lowlevel.design/blog</link>
         <description>LowLevel.Design Blog</description>
         <lastBuildDate>Fri, 31 Dec 2021 21:30:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[01]]></title>
-            <link>https://http://lowlevel.design/blog/01</link>
+            <link>https://lowlevel.design/blog/01</link>
             <guid>/01</guid>
             <pubDate>Fri, 31 Dec 2021 21:30:03 GMT</pubDate>
         </item>

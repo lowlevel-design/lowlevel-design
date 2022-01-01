@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://http://lowlevel.design/blog</id>
+    <id>https://lowlevel.design/blog</id>
     <title>LowLevel.Design Blog</title>
     <updated>2021-12-31T21:30:03.297Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://http://lowlevel.design/blog"/>
+    <link rel="alternate" href="https://lowlevel.design/blog"/>
     <subtitle>LowLevel.Design Blog</subtitle>
-    <icon>https://http://lowlevel.design/img/favicon.ico</icon>
+    <icon>https://lowlevel.design/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[01]]></title>
         <id>/01</id>
-        <link href="https://http://lowlevel.design/blog/01"/>
+        <link href="https://lowlevel.design/blog/01"/>
         <updated>2021-12-31T21:30:03.297Z</updated>
     </entry>
 </feed>
